@@ -1,6 +1,7 @@
 package main.java.cc.baijunyu;
 
 import main.java.cc.baijunyu.dynamicproxy.DynamicProxy;
+import main.java.cc.baijunyu.protectproxy.MatchService;
 import main.java.cc.baijunyu.staticproxy.ILawsuit;
 import main.java.cc.baijunyu.staticproxy.Lawyer;
 import main.java.cc.baijunyu.staticproxy.XiaoHui;
@@ -31,5 +32,7 @@ public class TestProxy {
         lawyer.burden();
         lawyer.defend();
         lawyer.finish();
+
+        MatchService matchService = new MatchService();
     }
 }

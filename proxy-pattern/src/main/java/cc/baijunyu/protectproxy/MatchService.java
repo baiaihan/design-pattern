@@ -16,9 +16,9 @@ public class MatchService {
         PersonBean nonOwnerProxy = getNonOwnerProxy(joe);
         System.out.println("Name is " + nonOwnerProxy.getName());
         System.out.println("Interets is " + nonOwnerProxy.getInterests());
-        ownerProxy.setInterests("吃羊肉串");
+        nonOwnerProxy.setInterests("吃海鲜");
         System.out.println("Interets are " + nonOwnerProxy.getInterests());
-        ownerProxy.setHotOrNotRating(50);
+        nonOwnerProxy.setHotOrNotRating(50);
         System.out.println("Rating is " + nonOwnerProxy.getHotOrNotRating());
     }
 
