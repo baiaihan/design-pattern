@@ -1,4 +1,4 @@
-package main.java.cc.baijunyu;
+package main.java.cc.baijunyu.dynamicproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

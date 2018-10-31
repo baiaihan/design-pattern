@@ -1,9 +1,10 @@
 package main.java.cc.baijunyu;
 
-import baijunyu.proxy.staticproxy.ILawsuit;
-import baijunyu.proxy.staticproxy.Lawyer;
-import baijunyu.proxy.staticproxy.XiaoHui;
-import baijunyu.proxy.staticproxy.XiaoMing;
+import main.java.cc.baijunyu.dynamicproxy.DynamicProxy;
+import main.java.cc.baijunyu.staticproxy.ILawsuit;
+import main.java.cc.baijunyu.staticproxy.Lawyer;
+import main.java.cc.baijunyu.staticproxy.XiaoHui;
+import main.java.cc.baijunyu.staticproxy.XiaoMing;
 
 import java.lang.reflect.Proxy;
 
